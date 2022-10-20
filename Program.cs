@@ -56,15 +56,15 @@ namespace Grade_Calculator
             {
                 grade = 5;
             }
-            else if (percentage >= 50 && percentage < 63)
+            else if (percentage < 63)
             {
                 grade = 4;
             }
-            else if (percentage >= 63 && percentage < 76)
+            else if (percentage < 76)
             {
                 grade = 3;
             }
-            else if (percentage >= 76 && percentage < 89)
+            else if ( percentage < 89)
             {
                 grade = 2;
             }
@@ -78,15 +78,15 @@ namespace Grade_Calculator
             {
                 grade = 5;
             }
-            else if (percentage2 >= 50 && percentage2 < 63)
+            else if (percentage2 < 63)
             {
                 grade = 4;
             }
-            else if (percentage2 >= 63 && percentage2 < 76)
+            else if (percentage2 < 76)
             {
                 grade = 3;
             }
-            else if (percentage2 >= 76 && percentage2 < 89)
+            else if (percentage2 < 89)
             {
                 grade = 2;
             }
